@@ -15,10 +15,6 @@ var walkRight = function() {
 		man.style.marginLeft = marginLeft + "px";
 		if (marginLeft < 960) {
 			marginLeft += 20;
-		} else if(marginLeft >= 880 && marginLeft <= 940)  { 
-		man.style.transform = "rotateZ(270deg)";
-		console.log("here");
-			marginLeft += 20;
 		} else {
 			walkLeft();
 		}//if statement
