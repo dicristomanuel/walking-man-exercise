@@ -1,7 +1,6 @@
 
 var man = document.querySelector("img");
 var marginLeft = 0
-document.body.style.borderBottom = "5px solid lightgreen";
 	
 	// man.addEventListener("click", function() {
 // 	this.style.marginLeft = marginLeft + "px";
